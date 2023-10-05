@@ -33,9 +33,12 @@ Enter a number: 64
 """
 
 x = int(input("enter a number: "))
+
 if (x % 2) == 0 and (((x ** (1/2)) % 2) == 0 or ((x ** (1/2)) % 2) == 1):
     print(f"{x} is both a perfect square and a divisible by 2.")
 elif ((x ** (1/2)) % 2) == 0 or ((x ** (1/2)) % 2) == 1:
     print(f"{x} is only a perfect square.")
 elif (x % 2) == 0:
     print(f"{x} is only divisible by 2.")
+else:
+    print(f"{x} is not a perfect square and not divisible by 2.")

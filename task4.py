@@ -28,4 +28,4 @@ name = input("enter your name: ")
 if name in VIPNames:
     print(f"Hello there {name}! you are a VIP!")
 else:
-    print(f"Hi {name}.")
+    print("You are not a VIP.")

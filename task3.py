@@ -26,6 +26,7 @@ Enter a number: 4.0
 """
 
 x = float(input("enter a number: "))
+
 if x > 0 and ((x % 2) == 0 or (x % 2) == 1):
     print(f"{x} is a positive integer")
 else:
